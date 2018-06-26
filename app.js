@@ -60,11 +60,13 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
             nextPlayer();
         }
         
+        /*
         if(count6 == 2){
             scores[activePlayer] = 0;
             document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
             nextPlayer();
         }
+        */
     }   
     
 });
